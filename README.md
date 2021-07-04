@@ -8,7 +8,11 @@ It's a template for NextJS development. Get everything already in place by runni
 To use this template for your NextJS development, just copy the command given below and paste in your terminal.
 
 ```bash
-npx create-next-app -e https://github.com/SaurabhKhade/nextjs-template.git
+npx create-next-app -e https://github.com/SaurabhKhade/nextjs-template
+#or
+yarn create next-app -e https://github.com/SaurabhKhade/nextjs-template
+#or 
+create-next-app -e https://github.com/SaurabhKhade/nextjs-template
 ```
 
 ## Why to use this template?
