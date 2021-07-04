@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import Head from '/components/head';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import '/styles/globals.scss';
+
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Head />
+      <Component {...pageProps} />
+    </>
+  );
 }
-
-export default MyApp
